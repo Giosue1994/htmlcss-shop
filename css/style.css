@@ -1,0 +1,55 @@
+/* DIVISORIO */
+.divisorio {
+  height: 50px;
+}
+/* FINE DIVISORIO */
+
+/* IMPOSTAZIONI BLOCCHI */
+.block {
+  display: inline-block;
+  position: relative;
+}
+
+/* IMPOSTAZIONI BLOCCHI */
+.tablet .trenta {
+  background: green;
+  width: 40px;
+  font-style: italic;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.iphone .cinque{
+  background: red;
+  width: 40px;
+  font-style: italic;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.cuffie .trenta{
+  background: green;
+  width: 40px;
+  font-style: italic;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+/* FINE IMPOSTAZIONE BLOCCHI */
+
+/* CUORE */
+.rosso {
+  font-size: 30px;
+  position: absolute;
+  display: inline-block;
+  bottom: 10px;
+  right: 50%;
+}
+
+.cuore:hover {
+  cursor: pointer;
+  color: red;
+}
+/* FINE CUORE */
