@@ -1,55 +1,49 @@
-/* DIVISORIO */
-.divisorio {
+/* ____________________IMPOSTAZIONE PAGINA________________________*/
+.riga {
+position: relative;
+}
+
+.space {
   height: 50px;
 }
-/* FINE DIVISORIO */
 
-/* IMPOSTAZIONI BLOCCHI */
 .block {
-  display: inline-block;
-  position: relative;
+display: inline-block;
+position: relative;
+cursor: pointer;
 }
+/* ____________________FINE IMPOSTAZIONE PAGINA________________________*/
 
-/* IMPOSTAZIONI BLOCCHI */
-.tablet .trenta {
-  background: green;
-  width: 40px;
-  font-style: italic;
+/* ____________________SCONTI________________________*/
+.sconto {
   position: absolute;
   right: 0;
-  top: 0;
-}
-
-.iphone .cinque{
-  background: red;
   width: 40px;
+  text-align: center;
   font-style: italic;
-  position: absolute;
-  right: 0;
-  top: 0;
 }
 
-.cuffie .trenta{
-  background: green;
-  width: 40px;
-  font-style: italic;
-  position: absolute;
-  right: 0;
-  top: 0;
+.green {
+  background-color: green;
 }
-/* FINE IMPOSTAZIONE BLOCCHI */
 
-/* CUORE */
-.rosso {
-  font-size: 30px;
+.red {
+  background-color: red;
+}
+/* ____________________FINE SCONTI________________________*/
+
+/* ____________________CUORE________________________*/
+.block .cuore {
   position: absolute;
-  display: inline-block;
-  bottom: 10px;
   right: 50%;
+  bottom: 20px;
+  color: red;
+  display: none;
+  text-align: center;
 }
 
-.cuore:hover {
-  cursor: pointer;
-  color: red;
+.block:hover .cuore {
+  display: inline-block;
+  font-size: 25px;
 }
-/* FINE CUORE */
+/* ____________________FINE CUORE________________________*/
